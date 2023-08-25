@@ -1,1 +1,92 @@
+
 /* You can add global styles to this file, and also import other style files */
+// html, body { height: 100%; }
+// body { margin: 0; font-family: 'Rubik', sans-serif; font-size: 14px; font-weight: 400; color: #535353; background: #ffffff /*url('assets/images/body-background.svg') repeat-x center bottom*/; }
+// .conatiner {
+//     background: rgb(2, 0, 36);
+//     background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(134, 173, 68, 1) 0%, rgba(87, 187, 134, 1) 15%, rgba(118, 178, 91, 1) 43%, rgba(101, 183, 114, 1) 51%, rgba(138, 57, 204, 1) 86%, rgba(0, 212, 255, 1) 100%);
+//     margin: auto;
+//     height:100vh;
+//     width: 100%;
+// }
+
+// Toolbar panel
+.topnavpanel{/*padding: 15px 0;*/ height: 50px; background: #506F86; width: 100%; z-index: 5;}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    height:100%;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #5faee3;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  /*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f7fbfe;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+  }
+  
+  .section-title h2::before,
+  .section-title h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+  }
+  
+  .section-title h2::before {
+    margin: 0 15px 10px 0;
+  }
+  
+  .section-title h2::after {
+    margin: 0 0 10px 15px;
+  }
+  
+  .section-title p {
+    margin: 15px 0 0 0;
+  }
+  
+  #loom-companion-mv3{
+    display: none;
+  }
