@@ -1,0 +1,28 @@
+<!-- ======= Services Section ======= -->
+<section id="technologies" class="services">
+    <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2>Technologies and Platforms That We Work With</h2>
+            <p>Diptrish Technologies, the top software company in Kolkata, has skillfully mastered the art of creating
+                superior and feature-rich software, web apps. Our team of software developers has
+                profound knowledge and first-hand experience in using the latest frameworks and trending technologies.
+            </p>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="row justify-content-center flex-wrap">
+                <div *ngFor="let item of iconWithNameList" class="col-4 col-sm-3 col-md-2 icon_box">
+                    <picture class="mb-3">
+                        <source media="(max-width:650px)" srcset={{item.icon}}>
+                        <source media="(max-width:465px)" srcset={{item.icon}}>
+                        <img src={{item.icon}} alt="Flowers" style="width:auto;">
+                    </picture>
+                    <h6 class="mb-5">{{item.name}}</h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End Services Section -->

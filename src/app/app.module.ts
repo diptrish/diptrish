@@ -14,6 +14,7 @@ import { HeroSectionComponent } from './component/hero-section/hero-section.comp
 import { OurServicesComponent } from './component/our-services/our-services.component';
 import { AboutComponent } from './component/about/about.component';
 import { ContactUsComponent } from './component/contact-us/contact-us.component';
+import { TechnologiesComponent } from './component/technologies/technologies.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ContactUsComponent } from './component/contact-us/contact-us.component'
     OurServicesComponent,
     AboutComponent,
     ContactUsComponent,
+    TechnologiesComponent,
   ],
   imports: [
     BrowserModule,
