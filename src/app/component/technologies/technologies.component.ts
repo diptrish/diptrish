@@ -47,6 +47,16 @@ export class TechnologiesComponent {
       name:'HTML',
       icon:'https://img.icons8.com/fluency/48/html-5.png',
       alt:'html-logo'
+    },
+    {
+      name:'AWS',
+      icon:'https://img.icons8.com/color/48/amazon-web-services.png',
+      alt:'aws-logo'
+    },
+    {
+      name:'Python',
+      icon:'https://img.icons8.com/color/48/python--v1.png',
+      alt:'python-logo'
     }
   ]
 
